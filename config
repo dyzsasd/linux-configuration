@@ -1,0 +1,74 @@
+Host dev1
+HostName dev1.dev.mp.mo.sap.corp
+User szhang
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host tkaws
+HostName 52.42.33.234
+User ubuntu
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/tkrefer_key
+
+Host solr-dev
+HostName mo-7448db88c.mo.sap.corp
+User i325165
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host jump
+HostName jump.z4.multiposting.fr
+User szhang
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host jump-z4
+HostName jump-zone4.iaas.mo.sap.corp
+User i325165
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host dev2
+HostName dev2.dev.mp.mo.sap.corp
+User szhang
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host family
+HostName jeanneva.noip.me
+User shuai
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host vps
+HostName 164.132.110.148
+User shuai
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+Host prod8.ovh
+HostName prod8.ovh.multiposting.fr
+User szhang
+PubKeyAuthentication yes
+IdentityFile /home/I325165/.ssh/shuai
+
+host github.com
+HostName github.com
+IdentityFile ~/.ssh/shuai
+User git
+
+host github.wdf.sap.corp
+HostName github.wdf.sap.corp
+IdentityFile ~/.ssh/shuai
+User git
+
+host warehouse.monsoon.mo.sap.corp
+HostName warehouse.monsoon.mo.sap.corp
+IdentityFile ~/.ssh/shuai
+User git
+
+host data-dev
+HostName mo-be827ef3c.mo.sap.corp
+IdentityFile ~/.ssh/shuai
+User i325165
+
